@@ -6,13 +6,9 @@
 
 ## Consumers
 
-What users would find your data useful? How do they want to access the data?
-
-> The users of the dataset are Data Analysts who are interested in upcoming and the latest movie releases.
+> This dataset serves data analysts who are interested in tracking and analysing upcoming and recent movie releases.
 
 ## Questions
-
-What questions are you trying to answer with your data? How will your data support your users?
 
 > - What are the highest rated recent film releases?
 > - What movies are currently in cinemas for a specific genre I like?
