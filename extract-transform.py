@@ -106,6 +106,7 @@ with open("data/upcoming.json", "r") as infile:
 
 # convert to df
 genres_df = pd.read_csv("data/genres.csv")
+language_codes_df = pd.read_csv("data/language_codes.csv")
 now_playing_df = pd.DataFrame(data=pd.json_normalize(now_playing_data))
 upcoming_df = pd.DataFrame(data=pd.json_normalize(upcoming_data))
 
@@ -197,14 +198,17 @@ now_playing_grouped = now_playing_df_merged.groupby(by="movie_id").agg(
 
 now_playing_grouped = now_playing_grouped.rename(columns={"genre_y":"genre"})
 
-print(now_playing_grouped.head())
+now_playing_merged_2 = pd.merge(left=now_playing_grouped, right=language_codes_df, left_on="language", right_on="iso_639_1", how="left")
+now_playing_merged_2 = now_playing_merged_2.drop(columns=["language","iso_639_1", "name"])
+now_playing_merged_2 = now_playing_merged_2.rename(columns={"english_name":"language"})
 
-# to-do
-# add language code join
-# round popularity score and rating average
+now_playing_merged_2[["popularity_score", "rating_average"]] = now_playing_merged_2[["popularity_score", "rating_average"]].round(2)
 
-pd.set_option('display.max_columns', None)  # Show all columns
-#pd.set_option('display.width', None)        # Don't wrap to fit terminal
+now_playing_transformed = now_playing_merged_2
+
+
+pd.set_option('display.max_columns', None)  
+#pd.set_option('display.width', None)      
 
 #print(genres_df.head())
 #print(now_playing_df.head())
