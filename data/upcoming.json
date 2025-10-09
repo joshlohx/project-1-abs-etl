@@ -1,0 +1,542 @@
+[
+    {
+        "adult": false,
+        "backdrop_path": "/dh0dLVLDLqUKhtytCFjkf3EHeJI.jpg",
+        "genre_ids": [
+            16,
+            28,
+            14
+        ],
+        "id": 1218925,
+        "original_language": "ja",
+        "original_title": "\u30c1\u30a7\u30f3\u30bd\u30fc\u30de\u30f3 \u30ec\u30bc\u7bc7",
+        "overview": "In a brutal war between devils, hunters, and secret enemies, a mysterious girl named Reze has stepped into Denji's world, and he faces his deadliest battle yet, fueled by love in a world where survival knows no rules.",
+        "popularity": 118.4328,
+        "poster_path": "/xdzLBZjCVSEsic7m7nJc4jNJZVW.jpg",
+        "release_date": "2025-10-23",
+        "title": "Chainsaw Man - The Movie: Reze Arc",
+        "video": false,
+        "vote_average": 8.688,
+        "vote_count": 16
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/g3lCbTn3HYHTiFrfusxKGXMdyUW.jpg",
+        "genre_ids": [
+            878,
+            12,
+            28
+        ],
+        "id": 533533,
+        "original_language": "en",
+        "original_title": "TRON: Ares",
+        "overview": "A highly sophisticated Program called Ares is sent from the digital world into the real world on a dangerous mission, marking humankind's first encounter with A.I. beings.",
+        "popularity": 55.551,
+        "poster_path": "/chpWmskl3aKm1aTZqUHRCtviwPy.jpg",
+        "release_date": "2025-10-09",
+        "title": "TRON: Ares",
+        "video": false,
+        "vote_average": 8.5,
+        "vote_count": 2
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/eBhxn1g9l5UdnqfKdqMOBYltwZk.jpg",
+        "genre_ids": [
+            27,
+            53
+        ],
+        "id": 1197137,
+        "original_language": "en",
+        "original_title": "Black Phone 2",
+        "overview": "Four years after escaping The Grabber, Finney Blake, now 17, is struggling with his life after captivity. His sister Gwen begins receiving calls in her dreams from the black phone and seeing disturbing visions of three boys being stalked at a winter camp. The siblings are determined to solve the mystery and confront a killer who has grown more powerful in death and far more significant to them than either can imagine.",
+        "popularity": 22.1571,
+        "poster_path": "/d9kDYFoQzcmhWtmncJhKsFq8KoH.jpg",
+        "release_date": "2025-10-16",
+        "title": "Black Phone 2",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/m3WlBJJRbFPaut1QS0PbOG8Wezy.jpg",
+        "genre_ids": [
+            10749,
+            18
+        ],
+        "id": 1327862,
+        "original_language": "en",
+        "original_title": "Regretting You",
+        "overview": "Morgan Grant and her daughter Clara explore what's left behind after a devastating accident reveals a shocking betrayal and forces them to confront family secrets, redefine love, and rediscover each other.",
+        "popularity": 9.8694,
+        "poster_path": "/z4gVnxTaks3anTycwKjDmvQSuWt.jpg",
+        "release_date": "2025-10-23",
+        "title": "Regretting You",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/eTTIVwc6RxPK9ATmnuwKTrjJ3eP.jpg",
+        "genre_ids": [
+            35,
+            18
+        ],
+        "id": 1245347,
+        "original_language": "en",
+        "original_title": "Twinless",
+        "overview": "Two young men meet in a twin bereavement support group and form an unlikely bromance.",
+        "popularity": 9.5161,
+        "poster_path": "/A3WrY9AaBWxk1xn9bwqB9CAJT12.jpg",
+        "release_date": "2025-10-23",
+        "title": "Twinless",
+        "video": false,
+        "vote_average": 8.375,
+        "vote_count": 8
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/9Ahk82L8KqfDGxWfDX074Mnytsv.jpg",
+        "genre_ids": [
+            18,
+            53
+        ],
+        "id": 1265063,
+        "original_language": "en",
+        "original_title": "After the Hunt",
+        "overview": "A college professor finds herself at a personal and professional crossroads when a star pupil levels an accusation against one of her colleagues, and a dark secret from her own past threatens to come to light.",
+        "popularity": 7.4634,
+        "poster_path": "/mshLA4kWmtWUbORgfQS3gQeH3kt.jpg",
+        "release_date": "2025-10-16",
+        "title": "After the Hunt",
+        "video": false,
+        "vote_average": 6.0,
+        "vote_count": 1
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/t2XIMAhoX9fbwJmfZl7a4XDFkRF.jpg",
+        "genre_ids": [
+            80,
+            18,
+            35
+        ],
+        "id": 1242419,
+        "original_language": "en",
+        "original_title": "Roofman",
+        "overview": "A former Army Ranger and struggling father turns to robbing McDonald\u2019s restaurants by cutting holes in their roofs, earning him the nickname \"Roofman\". After escaping prison, he secretly lives inside a Toys \u201cR\u201d Us for six months, surviving undetected while planning his next move. But when he falls for a divorced mom drawn to his undeniable charm, his double life begins to unravel, setting off a compelling and suspenseful game of cat and mouse as his past closes in.",
+        "popularity": 8.8707,
+        "poster_path": "/uhXxW7EmzZIWFVpbF42r6L2g7Oh.jpg",
+        "release_date": "2025-10-16",
+        "title": "Roofman",
+        "video": false,
+        "vote_average": 8.0,
+        "vote_count": 1
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/7OwZxXuLPtCFjdqJdiTuEE1DE4J.jpg",
+        "genre_ids": [
+            18,
+            10402
+        ],
+        "id": 1230368,
+        "original_language": "en",
+        "original_title": "Springsteen: Deliver Me from Nowhere",
+        "overview": "Bruce Springsteen, a young musician on the cusp of global superstardom, struggles to reconcile the pressures of success with the ghosts of his past.",
+        "popularity": 6.0513,
+        "poster_path": "/csBV3eq4RDjNg1acNQ8kwOZyPlZ.jpg",
+        "release_date": "2025-10-23",
+        "title": "Springsteen: Deliver Me from Nowhere",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/jOuu4mEBOuJVb6CkkmRDpjnrZed.jpg",
+        "genre_ids": [
+            27,
+            9648
+        ],
+        "id": 937941,
+        "original_language": "en",
+        "original_title": "Shelby Oaks",
+        "overview": "A woman\u2019s obsessive search for her missing sister leads her into a terrifying mystery at the hands of an unknown evil.",
+        "popularity": 5.1225,
+        "poster_path": "/iSasCj14rvH4NzJfSRegPtbBLC6.jpg",
+        "release_date": "2025-10-23",
+        "title": "Shelby Oaks",
+        "video": false,
+        "vote_average": 10.0,
+        "vote_count": 1
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/tyTYIkZud731bkPOncMtbzK1fsN.jpg",
+        "genre_ids": [
+            80,
+            18
+        ],
+        "id": 1352624,
+        "original_language": "en",
+        "original_title": "The Mastermind",
+        "overview": "In a sedate corner of Massachusetts circa 1970, an unemployed carpenter turned amateur art thief plans his first big heist. When things go haywire, his life unravels.",
+        "popularity": 6.6425,
+        "poster_path": "/hCQjAPmraF3ppv3KfNXA4lkBnbe.jpg",
+        "release_date": "2025-10-23",
+        "title": "The Mastermind",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/mqh9RCkvhNbLlgrZjaGvVyIioUf.jpg",
+        "genre_ids": [
+            35,
+            18,
+            14
+        ],
+        "id": 1114967,
+        "original_language": "en",
+        "original_title": "Good Fortune",
+        "overview": "A well-meaning but rather inept angel named Gabriel meddles in the lives of a struggling gig worker and a wealthy capitalist.",
+        "popularity": 4.6537,
+        "poster_path": "/nVXpuJiCk4VJeN9SZSzDZteTrGI.jpg",
+        "release_date": "2025-10-16",
+        "title": "Good Fortune",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/h2SEtzuABKmcZAnKBJ1za3kETTY.jpg",
+        "genre_ids": [
+            16,
+            35,
+            12,
+            878,
+            27
+        ],
+        "id": 1205229,
+        "original_language": "en",
+        "original_title": "Night of the Zoopocalypse",
+        "overview": "A wolf and mountain lion team up when a meteor unleashes a virus turning zoo animals into zombies. They join forces with other survivors to rescue the zoo and stop the deranged mutant leader from spreading the virus.",
+        "popularity": 2.8899,
+        "poster_path": "/nCejOVZcOxKS27nnbh28NKXOdXF.jpg",
+        "release_date": "2025-10-16",
+        "title": "Night of the Zoopocalypse",
+        "video": false,
+        "vote_average": 6.2,
+        "vote_count": 32
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/8KkAlzsvJAThRiIdI9E9slUgbpl.jpg",
+        "genre_ids": [
+            28,
+            27,
+            53,
+            10752
+        ],
+        "id": 1244531,
+        "original_language": "en",
+        "original_title": "Beast of War",
+        "overview": "When their boat sinks while crossing the Timor Sea during World War II, a troop of young Australian soldiers must find a way to survive the harsh seas on a quickly shrinking raft. Hundreds of miles from anywhere, they must confront interpersonal conflicts, enemy attacks, and the advances of one very large, very hungry great white shark.",
+        "popularity": 2.0465,
+        "poster_path": "/lVkRuT0lyOYs4zrhIbTlXhiKYY.jpg",
+        "release_date": "2025-10-09",
+        "title": "Beast of War",
+        "video": false,
+        "vote_average": 6.0,
+        "vote_count": 1
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            18
+        ],
+        "id": 1325958,
+        "original_language": "en",
+        "original_title": "The Travellers",
+        "overview": "Stephen Seary, a stage designer, returns to Australia to visit his dying mother, but a quick trip descends into family tensions, past conflicts, and romantic complications, jeopardizing his return to Europe and the opera that awaits.",
+        "popularity": 0.8958,
+        "poster_path": "/jXt3hpZ3S5F3HO6RMrf2Dtd33rT.jpg",
+        "release_date": "2025-10-09",
+        "title": "The Travellers",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/y84xfQYzdd8U0t3DhX8tZFigPrQ.jpg",
+        "genre_ids": [
+            16,
+            35,
+            10749,
+            27
+        ],
+        "id": 1065952,
+        "original_language": "en",
+        "original_title": "The Fling",
+        "overview": "A nice romantic dinner in a restaurant goes awry when it\u2019s revealed one of them has a monstrous secret.",
+        "popularity": 0.2537,
+        "poster_path": "/fCsfznKcgdnzPUiTqcZh7wUsGhx.jpg",
+        "release_date": "2025-10-17",
+        "title": "The Fling",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            18,
+            9648
+        ],
+        "id": 1554899,
+        "original_language": "en",
+        "original_title": "Counting Sheep",
+        "overview": "Two roommates test the limits of friendship, trust, and morality, where in a world of sheep, the true danger may not be outside the fence, but inside.",
+        "popularity": 0.2207,
+        "poster_path": "/2FGLzaaEo5rzPTn5X8D2FbNpptN.jpg",
+        "release_date": "2025-10-12",
+        "title": "Counting Sheep",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/oW14gOoxnZHXpp3SuKOwHJLluVB.jpg",
+        "genre_ids": [
+            35,
+            18
+        ],
+        "id": 1386114,
+        "original_language": "en",
+        "original_title": "Dusty",
+        "overview": "After the death of his best friend, we follow Dustin on a grief-induced bender for one. Going to great fucked-up lengths to keep the memory of his best friend Ashleigh alive. How? By accidentally mixing her ashes into his buzz of course.",
+        "popularity": 0.2224,
+        "poster_path": "/tuIeXnLyuI0Y7B80dCCAD5Uj9hk.jpg",
+        "release_date": "2024-09-03",
+        "title": "Dusty",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/mw0QGaAQZyADHmkphnM4b6vDMgr.jpg",
+        "genre_ids": [
+            18
+        ],
+        "id": 1495687,
+        "original_language": "es",
+        "original_title": "Cangrejos en el aire",
+        "overview": "The story of the short film revolves around Ivan (26) who has been in a toxic relationship with his partner, Isaac (28), for years. One night, after a fatal fight, Ivan decides to leave his home and flee in the middle of the night, carrying all his belongings, without money or help from anyone, until he finds a place to sleep. Reluctant to take refuge in a hostel where he shares a room with strangers, he runs back to Isaac's apartment, but no one answers the door. Unrepentant, he decides to escape to a party with his old friend, Eric (30), an unfinished memory of his past. They are accompanied to the party by Gus (27), his boyfriend, who seems quite comfortable with their open relationship... The intimacy leads them to relive the past, at the expense of Gus's feelings and Ivan's turbulent past. That night, the shadow of his crab returns to haunt Ivan... and remind him of what it felt like to fly.",
+        "popularity": 0.1124,
+        "poster_path": "/y7uittbzUgh7mNpYrjoicNYnwS7.jpg",
+        "release_date": "2025-10-17",
+        "title": "Crabs in the Air",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/qeK8fb7xrMH1cfgoOiefBniV3OP.jpg",
+        "genre_ids": [
+            27
+        ],
+        "id": 1551396,
+        "original_language": "en",
+        "original_title": "I See You Lyla",
+        "overview": "When Lyla spends the night at her best friend Cecilia\u2019s house, what begins as a casual catch-up quickly turns unsettling. Strange noises and subtle disturbances unsettle Lyla, though Cecilia brushes them off. As the night deepens, unease lingers in the shadows, and Lyla can\u2019t shake the feeling that someone or something is watching...",
+        "popularity": 0.1173,
+        "poster_path": "/5SHiO2wJw1CvEfiVfaWMhqAdPft.jpg",
+        "release_date": "2025-10-12",
+        "title": "I See You Lyla",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            18
+        ],
+        "id": 1459994,
+        "original_language": "en",
+        "original_title": "Sisters",
+        "overview": "Jacqui's sister Leia comes home for a week to help her decide whether to sell their late mother's house. Leia thinks Jacqui should learn to communicate with the dead.\u202f",
+        "popularity": 0.0776,
+        "poster_path": "/cL2Xr6KuXzIYOH6uGmffFUx873Z.jpg",
+        "release_date": "2025-10-18",
+        "title": "Sisters",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/ih4QUp1l3N5jo46utlsrZMYUqJF.jpg",
+        "genre_ids": [],
+        "id": 1556802,
+        "original_language": "en",
+        "original_title": "The Full-Time Love Rat",
+        "overview": "Newly wealthy and disillusioned, Randall, a mobile game developer, asks his old friend Sarah out for dinner to tell her how he actually feels about her. She deflects the conversation, insisting a solution to his crisis of meaning could be to join the dating applications. Heartbroken, Randall follows Sarah\u2019s advice, but this casual and dishonest way of life begins to have dehumanising effects on his mind and body. Without Sarah, however, Randall can\u2019t find it in himself to stop, as he doubles down on the descent into ratty madness.",
+        "popularity": 0.0413,
+        "poster_path": "/2ghqlzalD3M5eMvNP7HE0ejC0lF.jpg",
+        "release_date": "2025-10-19",
+        "title": "The Full-Time Love Rat",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/j4GyKHpTR95nt13Yig5mGOr0jOn.jpg",
+        "genre_ids": [
+            10749,
+            18
+        ],
+        "id": 1373474,
+        "original_language": "en",
+        "original_title": "We Have Until August",
+        "overview": "A man from the Southern Highlands of New South Wales and a woman from Punjab, India, form a deep bond over three and a half years while living in Sydney\u2019s Inner West. But as her departure in August 2026 nears, their final week together is filled with laughter, nostalgia, and the painful uncertainty of whether this is the end or just another chapter in their story.",
+        "popularity": 0.0336,
+        "poster_path": "/nlLSBO9q4Sl0rMoc4gyVd3ojCBJ.jpg",
+        "release_date": "2025-10-09",
+        "title": "We Have Until August",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [],
+        "id": 1555804,
+        "original_language": "en",
+        "original_title": "portrait",
+        "overview": "On Christmas Eve, a family of four gathers for a rare  holiday dinner. Held back by tradition and the  pressure to stay festive, each struggles to speak their  personal truth\u2014until the tension erupts, giving way to  a fragile moment of reconnection.",
+        "popularity": 0.0311,
+        "poster_path": null,
+        "release_date": "2025-10-17",
+        "title": "portrait",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/1PdlmvEKbtWTYY81hAeu5q89olE.jpg",
+        "genre_ids": [
+            99
+        ],
+        "id": 1556954,
+        "original_language": "en",
+        "original_title": "DAD",
+        "overview": "A poignant short documentary featuring three children as they reflect on a life-changing family tragedy: their father\u2019s diagnosis with brain cancer. Told through their eyes, the film explores love, resilience, and the ways young people process illness and uncertainty within a family.",
+        "popularity": 0.0143,
+        "poster_path": "/vQF6cXjWWaTABDSsQumjCmR6yDG.jpg",
+        "release_date": "2024-08-17",
+        "title": "DAD",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+            99
+        ],
+        "id": 1556915,
+        "original_language": "en",
+        "original_title": "The Oldest Heart",
+        "overview": "The Oldest Heart is a short documentary that follows the inspiring journey of Australia\u2019s oldest female amateur boxer, Lyn Joy Mills, who at 71, embarks on an extraordinary journey toward her first official fight.",
+        "popularity": 0.0143,
+        "poster_path": "/3goEtzU93t4TYIDy87ZMb9hPUC1.jpg",
+        "release_date": "2025-09-16",
+        "title": "The Oldest Heart",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/eDCDg8nva4lEfBeyrjDbWfbQZDQ.jpg",
+        "genre_ids": [
+            35
+        ],
+        "id": 1557501,
+        "original_language": "en",
+        "original_title": "The Parent Teacher Interview",
+        "overview": "A routine parent-teacher interview takes a violent turn as a frustrated teacher is pushed past his breaking point by two feral parents.",
+        "popularity": 0.0732,
+        "poster_path": "/mjVl5SBk5wZ04eFOWQniwqNEt0d.jpg",
+        "release_date": "2025-10-11",
+        "title": "The Parent Teacher Interview",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [],
+        "id": 1557889,
+        "original_language": "en",
+        "original_title": "Soohe Ve Cheere Waleya",
+        "overview": "Set in 1990s Punjab, near the India-Pakistan border, \"Soohe Ve Cheere Waleya\" tells the heartfelt story of \"Sooba\" (Nirvair Pannu), a well-educated young man who runs a telephone shop yet feels incomplete without his ancestral land.",
+        "popularity": 0.05,
+        "poster_path": null,
+        "release_date": "2025-10-10",
+        "title": "Soohe Ve Cheere Waleya",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [],
+        "id": 1557863,
+        "original_language": "en",
+        "original_title": "Chasing the gold",
+        "overview": "The Coolangatta Gold, a punishing endurance race scripted as part of a 1980's romantic film, originating from the sport of surf lifesaving. Ali Day, the greatest ironman of all time, aims for his tenth title but his body is older and a field of competitors are desperate to beat him, including the young gun Conner Maggs.",
+        "popularity": 0.0143,
+        "poster_path": "/f7YkHXReGzVadmnnMo2IP0ARGmw.jpg",
+        "release_date": "2025-10-09",
+        "title": "Chasing the gold",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+    },
+    {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [],
+        "id": 1557855,
+        "original_language": "en",
+        "original_title": "Raavi de Kande",
+        "overview": "When his daughter is falsely defamed, Chaman Lal's four daughters lose marriage prospects. A traveler named Sikander helps him find inner peace over social approval, leading to hope and his family's restoration.",
+        "popularity": 0.0214,
+        "poster_path": null,
+        "release_date": "2025-10-10",
+        "title": "Raavi de Kande",
+        "video": false,
+        "vote_average": 0.0,
+        "vote_count": 0
+    }
+]
