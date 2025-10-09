@@ -3,6 +3,9 @@ import os
 import json
 import pandas as pd
 from dotenv import load_dotenv
+from sqlalchemy import Column, Float, Integer, MetaData, String, Table, Date, create_engine
+from sqlalchemy.dialects import postgresql
+from sqlalchemy.engine import URL
 
 load_dotenv()
 
@@ -185,6 +188,7 @@ genres_df["genre_id"] = genres_df["genre_id"].astype(dtype="Int64")
 now_playing_df_merged = pd.merge(left=now_playing_df_exploded, right=genres_df, left_on="genre", right_on="genre_id", how="left")
 now_playing_grouped = now_playing_df_merged.groupby(by="movie_id").agg(
     {
+        "movie_id": "first",
         "title": "first",
         "release_date":"first",
         "genre_y": lambda genre: ", ".join(genre.astype(str)),
@@ -206,10 +210,53 @@ now_playing_merged_2[["popularity_score", "rating_average"]] = now_playing_merge
 
 now_playing_transformed = now_playing_merged_2
 
-
 pd.set_option('display.max_columns', None)  
-#pd.set_option('display.width', None)      
 
-#print(genres_df.head())
-#print(now_playing_df.head())
-#print(upcoming_df.head())
+db_database_name=os.getenv("db_database_name")
+db_password=os.getenv("db_password")
+db_server_name=os.getenv("db_server_name")
+db_user=os.getenv("db_user")
+
+connection_url = URL.create(
+    drivername = "postgresql+pg8000", 
+    username = db_user,
+    password = db_password,
+    host = db_server_name, 
+    port = 5432,
+    database = db_database_name, 
+)
+
+engine = create_engine(connection_url)
+
+meta = MetaData()
+
+movie_list_table = Table(
+    "movie_list",
+    meta,
+    Column("movie_id", Integer, primary_key=True),
+    Column("title", String),
+    Column("release_date", Date),
+    Column("genre", String),
+    Column("is_adult", String),
+    Column("popularity_score", Float),
+    Column("rating_count", Integer),
+    Column("rating_average", Float),
+    Column("language", String)
+)
+
+meta.create_all(engine)
+
+insert_statement = postgresql.insert(movie_list_table).values(
+    now_playing_transformed.to_dict(orient="records")
+)
+
+upsert_statement = insert_statement.on_conflict_do_update(
+    index_elements=["movie_id"],
+    set_={
+            c.key: c
+            for c in insert_statement.excluded
+            if c.key not in ["movie_id"]
+        },
+)
+
+engine.execute(upsert_statement)
