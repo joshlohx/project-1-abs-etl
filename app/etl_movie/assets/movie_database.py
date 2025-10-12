@@ -1,5 +1,7 @@
 import pandas as pd
 from app.etl_movie.connectors.movie_database import MovieDatabaseApiClient
+from app.etl_movie.connectors.postgresql import PostgreSqlClient
+from sqlalchemy import Column, Float, Integer, MetaData, String, Table, Date, create_engine
 
 def extract_movie_database(movie_database_client: MovieDatabaseApiClient) -> pd.DataFrame:
 
@@ -52,12 +54,40 @@ def transform(df: pd.DataFrame, df_genres: pd.DataFrame, df_language_codes: pd.D
 
     df_selected = df_renamed[
         ["movie_id", "title", "release_date", "genre", "language", "is_adult", "popularity_score", "rating_score", "rating_count"]
-    ]
+    ].copy()
 
     df_selected[["popularity_score", "rating_score"]] = df_selected[["popularity_score", "rating_score"]].round(2)
 
     df_movie_now_playing = df_selected
     return df_movie_now_playing
 
-def load():
-    pass
+def load(df: pd.DataFrame,
+    postgresql_client: PostgreSqlClient,
+    table: Table,
+    metadata: MetaData,
+    load_method: str = "overwrite",) -> None:
+
+    if load_method == "overwrite":
+        postgresql_client.overwrite(
+            data=df.to_dict(orient="records"),
+            table=table,
+            metadata=metadata
+            )
+        
+    elif load_method == "insert":
+        postgresql_client.insert(
+            data=df.to_dict(orient="records"),
+            table=table,
+            metadata=metadata
+            )
+        
+    elif load_method == "upsert":
+            postgresql_client.upsert(
+            data=df.to_dict(orient="records"),
+            table=table,
+            metadata=metadata
+            )
+    else:
+        raise Exception(
+            "Load method must be either [overwrite, insert, upsert]."
+        )

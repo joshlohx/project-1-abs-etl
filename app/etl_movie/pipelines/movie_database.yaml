@@ -1,0 +1,5 @@
+name: "movie_database"
+config:
+  genres_filepath: "./app/etl_movie/data/genres.csv"
+  language_codes_filepath: "./app/etl_movie/data/language_codes.csv"
+  load_method: "upsert"
