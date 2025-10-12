@@ -9,7 +9,7 @@ class MovieDatabaseApiClient:
 
         self.base_url = "https://api.themoviedb.org/3/"
 
-    def get_now_playing(self) -> dict: 
+    def get_now_playing(self) -> list[dict]: 
         
         url = f"{self.base_url}movie/now_playing"
 
@@ -26,8 +26,9 @@ class MovieDatabaseApiClient:
             headers=headers, 
             params=params)
         
-        if response.status_code == 200 and response.json() is not None:
-            return response.json()
+        if response.status_code == 200 and response.json().get("results") is not None:
+            response_json = response.json().get("results")
+            response_pages = response.json().get("total_pages")
         else:
             raise Exception(
                 f"""
@@ -35,3 +36,22 @@ class MovieDatabaseApiClient:
                 Status Code {response.status_code}. 
                 Response: {response.text}
                 """)
+        
+        if response_pages > 1:
+            for page_num in range(2, response_pages + 1):
+                params.update({"page":page_num})
+                response = requests.get(url="https://api.themoviedb.org/3/movie/now_playing", headers=headers, params=params)
+                if response.status_code == 200:
+                    response_json.extend(response.json().get("results"))
+                else:
+                    raise Exception(
+                        f"""
+                        Failed to extract page {page_num} from now playing movie data from The Movies Database API. 
+                        Status Code {response.status_code}. 
+                        Response: {response.text}
+                        """
+                    )
+        else:
+            pass
+        
+        return response_json
