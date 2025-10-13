@@ -3,7 +3,8 @@ from pathlib import Path
 from loguru import logger
 import os
 import yaml
-import loguru
+import schedule
+import time
 from sqlalchemy import Column, Float, Integer, MetaData, String, Table, Date, create_engine
 from app.etl_movie.connectors.movie_database import MovieDatabaseApiClient
 from app.etl_movie.connectors.postgresql import PostgreSqlClient
@@ -30,15 +31,15 @@ def pipeline():
     )
 
     # extract
-
     logger.info("Extracting data from movies database API and CSV files")
+
     df_movie_list = extract_movie_database(movie_database_client=movie_database_client)
-    df_genres = extract_genres(filepath=pipeline_config.get("genres_filepath"))
-    df_language_codes = extract_language_codes(filepath=pipeline_config.get("language_codes_filepath"))
+    df_genres = extract_genres(filepath=pipeline_config.get("config").get("genres_filepath"))
+    df_language_codes = extract_language_codes(filepath=pipeline_config.get("config").get("language_codes_filepath"))
 
     # transform
-
     logger.info("Transforming data")
+
     df_transformed = transform(
         df = df_movie_list,
         df_genres=df_genres,
@@ -46,7 +47,7 @@ def pipeline():
     )
 
     # load
-    logger.info(f"Loading data to Postgres with load method: {pipeline_config.get('load_method')}")
+    logger.info(f"Loading data to Postgres with load method: {pipeline_config.get('config').get('load_method')}")
 
     postgresql_client = PostgreSqlClient(
         username=db_user,
@@ -76,7 +77,7 @@ def pipeline():
         postgresql_client=postgresql_client,
         table=movie_list_table,
         metadata=meta,
-        load_method=pipeline_config.get("load_method")
+        load_method=pipeline_config.get("config").get("load_method")
     )
 
     logger.info("Pipeline run completed")
@@ -87,12 +88,17 @@ if __name__ == "__main__":
     yaml_file_path = __file__.replace(".py", ".yaml")
     if Path(yaml_file_path).exists:
         with open(yaml_file_path) as yaml_file:
-            pipeline_config = yaml.safe_load(yaml_file).get("config")
+            pipeline_config = yaml.safe_load(yaml_file)
     else:
         raise Exception(
             "A correctly configued .yaml file does not exists. Please create one ensuring the name variable exists."
         )
-    
+
     load_dotenv()
 
-    pipeline()
+    schedule.every(pipeline_config.get("schedule").get("run_hours")).seconds.do(pipeline)
+
+    while True:
+        schedule.run_pending()
+        time.sleep(1)
+        
