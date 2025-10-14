@@ -1,13 +1,13 @@
-# 🎬 TMDB Movie Data ETL Project
+# 🎬 The Movie Database ETL
 
 ## 📘 Project Context and Goals
-The project focuses on building an ETL pipeline to collect **currently airing movies** in Australia from the **TMDB API**.  
+The project focuses on building an ETL pipeline to collect **currently airing movies** in Australia from the **The Movie Database API**.  
 The pipeline continuously upserts new movies into a database, creating a growing and up-to-date table of films currently showing in Australian cinemas.
 
 ---
 
 ## 📊 Datasets Selected
-- **TMDB API**: Provides real-time data on movies currently playing in Australian cinemas, including movie IDs, titles, release dates, and popularity scores.  
+- **TMDB API**: Provides daily updating data on currently airing movies in Australian cinemas, including release date, genre and popularity scores.  
 - **Genres**: A .csv file mapping genre IDs to genre names.  
 - **Language Codes**: A .csv file mapping language codes to languages. 
 
@@ -26,7 +26,8 @@ Below is a simplified architecture diagram outlining the ETL workflow.
 
 ## ⚙️ ETL Techniques Applied
 1. **Extract:**  
-   - Fetched movie data from the TMDB API using `requests` in Python.  
+   - Fetched movie data from the TMDB API in Python.
+   - Used full extract as records have changing rating / popularity cores.   
    - Read supporting datasets (`genres.csv` and `language_codes.csv`) using `pandas`.  
 
 2. **Transform:**  
@@ -47,7 +48,7 @@ Below is a simplified architecture diagram outlining the ETL workflow.
 ---
 
 ## 💡 Lessons Learnt
-- Working with paginated APIs
+- API Pagination
 - Importance of building clean **(modularised & functional/OOP)** code from the start 
 - Don't do project 2 and 3 by myself 🙃
 
