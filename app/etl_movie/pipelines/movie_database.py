@@ -96,7 +96,7 @@ if __name__ == "__main__":
 
     load_dotenv()
 
-    schedule.every(pipeline_config.get("schedule").get("run_hours")).seconds.do(pipeline)
+    schedule.every(pipeline_config.get("schedule").get("run_seconds")).seconds.do(pipeline)
 
     while True:
         schedule.run_pending()

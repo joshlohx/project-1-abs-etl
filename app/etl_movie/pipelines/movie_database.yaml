@@ -4,4 +4,4 @@ config:
   language_codes_filepath: "./app/etl_movie/data/language_codes.csv"
   load_method: "upsert"
 schedule:
-  run_hours: 30
+  run_seconds: 10
